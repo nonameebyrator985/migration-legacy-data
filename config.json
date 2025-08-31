@@ -1,4 +1,5 @@
-{
+ {
+  // Configuration for the source database connection
   "source": {
     "type": "legacy_system",
     "connection": {
@@ -9,6 +10,7 @@
       "database": "legacy_db"
     }
   },
+  // Configuration for the destination database connection
   "destination": {
     "type": "new_database",
     "connection": {

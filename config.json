@@ -1,6 +1,6 @@
- {
-  // Configuration for the source database connection
+{
   "source": {
+    // Configuration for the source database connection
     "type": "legacy_system",
     "connection": {
       "host": "localhost",
@@ -10,8 +10,8 @@
       "database": "legacy_db"
     }
   },
-  // Configuration for the destination database connection
   "destination": {
+    // Configuration for the destination database connection
     "type": "new_database",
     "connection": {
       "host": "localhost",

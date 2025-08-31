@@ -1,0 +1,22 @@
+{
+  "source": {
+    "type": "legacy_system",
+    "connection": {
+      "host": "localhost",
+      "port": 3306,
+      "username": "user",
+      "password": "pass",
+      "database": "legacy_db"
+    }
+  },
+  "destination": {
+    "type": "new_database",
+    "connection": {
+      "host": "localhost",
+      "port": 5432,
+      "username": "user",
+      "password": "pass",
+      "database": "new_db"
+    }
+  }
+}

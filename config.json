@@ -1,22 +1,22 @@
 {
   "source": {
-    "type": "legacy_system",
+    "type": "legacy_system",  // Type of source system
     "connection": {
-      "host": "localhost",
-      "port": 3306,
-      "username": "user",
-      "password": "pass",
-      "database": "legacy_db"
+      "host": "localhost",  // Host for the database
+      "port": 3306,  // Port for the database connection
+      "username": "user",  // Username for connecting to the database
+      "password": "pass",  // Password for connecting to the database
+      "database": "legacy_db"  // Name of the legacy database
     }
   },
   "destination": {
-    "type": "new_database",
+    "type": "new_database",  // Type of destination system
     "connection": {
-      "host": "localhost",
-      "port": 5432,
-      "username": "user",
-      "password": "pass",
-      "database": "new_db"
+      "host": "localhost",  // Host for the database
+      "port": 5432,  // Port for the database connection
+      "username": "user",  // Username for connecting to the database
+      "password": "pass",  // Password for connecting to the database
+      "database": "new_db"  // Name of the new database
     }
   }
 }

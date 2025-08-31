@@ -4,8 +4,8 @@
     "connection": {
       "host": "localhost",
       "port": 3306,
-      "username": "user",
-      "password": "pass",
+      "username": "legacy_user",
+      "password": "legacy_password",
       "database": "legacy_db"
     }
   },
@@ -14,8 +14,8 @@
     "connection": {
       "host": "localhost",
       "port": 5432,
-      "username": "user",
-      "password": "pass",
+      "username": "new_user",
+      "password": "new_password",
       "database": "new_db"
     }
   }
